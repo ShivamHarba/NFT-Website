@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,10 +7,94 @@
 }
 
 :root{
+--primary-font-family:poppins;
 
 }
 
 body{
     background: rgb(152,77,56);
 background: linear-gradient(90deg, rgba(152,77,56,1) 0%, rgba(24,30,65,1) 100%);
+padding: 40px 80px;
+}
+
+/* .hdiv{
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    
+} */
+
+.header{
+   display: flex;
+   height: 10vh;
+   /* justify-content: space-around; */
+}
+
+.search{
+    padding-left: 200px;
+    padding-right: 200px;
+    /* height: 10vh;
+    background-color: #b3a4a7; */
+}
+.place{
+    height: 5vh;
+    background-color: #b3a4a7;
+    width: 250px;
+    border-radius: 8px;
+
+}
+
+.collection{
+    padding-left: 75px;
+    padding-right: 30px;
+    color: #FFFFFF;
+}
+.features{
+    padding-left: 75px;
+    padding-right: 30px;
+    color: #FFFFFF;
+}
+.faq{
+    padding-left: 75px;
+    padding-right: 30px;
+    color: #FFFFFF;
+    
+
+}
+.select{
+    padding-left: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 100vw;
+}
+.firstimg{
+    padding-top: 20vh;
+}
+
+.btn{
+   display: flex;
+   padding-top: 50px;
+}
+
+.explore{
+    padding-right: 50px;
+}
+
+.three{
+    display: flex;
+    padding-top: 100px;
+}
+.img1{
+padding-right: 100px;
+}
+.img2{
+    padding-right: 100px;
+}
+.img3{
+    
+
 }
