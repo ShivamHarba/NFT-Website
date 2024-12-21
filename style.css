@@ -1,20 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 :root{
---primary-font-family:poppins;
+    
+    --primary-font-color:#FFFFFF;
+    --primary-btn-bcg-color: rgb(183,92,255);
+    background: linear-gradient(14deg, rgba(183,92,255,1) 0%, rgba(103,26,228,1) 100%);
 
 }
 
 body{
-    background: rgb(152,77,56);
+    /* background: rgb(152,77,56); */
 background: linear-gradient(90deg, rgba(152,77,56,1) 0%, rgba(24,30,65,1) 100%);
 padding: 40px 80px;
+font-family: "Poppins", serif;
+
 }
 
 /* .hdiv{
@@ -31,45 +38,59 @@ padding: 40px 80px;
 }
 
 .search{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 90px;
     /* height: 10vh;
     background-color: #b3a4a7; */
 }
 .place{
-    height: 5vh;
+    height: 8vh;
     background-color: #b3a4a7;
-    width: 250px;
-    border-radius: 8px;
+    width: 350px;
+    border-radius: 20px;
 
 }
 
 .collection{
-    padding-left: 75px;
+    padding-left: 40px;
     padding-right: 30px;
     color: #FFFFFF;
+    font-size: 25px;
 }
 .features{
     padding-left: 75px;
     padding-right: 30px;
     color: #FFFFFF;
+    font-size: 25px;
 }
 .faq{
-    padding-left: 75px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 50px;
     color: #FFFFFF;
-    
+    font-size: 25px;
 
 }
 .select{
-    padding-left: 40px;
+    padding-left: 20px;
+    color: var(--primary-btn-color);
 }
 
+.selectbtn{
+    background-color: var(--primary-btn-bcg-color);
+    color: var(--primary-font-color);
+    height: 7vh;
+    width: 120px;
+   border-radius: 15px;
+}
 .text{
     display: flex;
-    flex-direction: column;
-    height: 60vh;
-    width: 100vw;
+    /* flex-direction: column; */
+    /* height: 60vh; */
+    width: 100%;
+}
+
+.textright{
+    width: 40%;
 }
 .firstimg{
     padding-top: 20vh;
@@ -83,10 +104,25 @@ padding: 40px 80px;
 .explore{
     padding-right: 50px;
 }
+.explorenow{
+    background-color: var(--primary-btn-bcg-color);
+    color: var(--primary-font-color);
+    height: 7vh;
+    width: 120px;
+   border-radius: 15px;
+}
+
+.sellnft{
+    background-color: #634851;
+    color:var(--primary-font-color);
+    height: 7vh;
+    width: 120px;
+   border-radius: 15px;
+}
 
 .three{
     display: flex;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .img1{
 padding-right: 100px;
@@ -97,4 +133,80 @@ padding-right: 100px;
 .img3{
     
 
+}
+
+.imgleft{
+    display: flex;
+
+}
+
+.firstthree{
+    padding-top: 130px;
+    padding-left: 180px;
+}
+
+.second{
+    padding-top: 20px;
+    transition: 150ms;
+}
+
+.second:hover{
+    scale: 1.2;
+}
+
+.first{
+    transition: 150ms;
+}
+
+.first:hover{
+    scale: 1.2;
+}
+
+.secondthree{
+    padding-top: 130px;
+    padding-left: 40px;
+}
+
+.second1{
+    transition: 150ms;
+}
+.second1:hover{
+    scale: 1.2;
+}
+
+.second2{
+    padding-top: 20px;
+    transition: 150ms;
+}
+.second2:hover{
+  scale: 1.2;
+}
+.third{
+    padding-top: 200px;
+    padding-left: 20px;
+}
+.third1{
+    transition: 150ms;
+}
+.third1:hover{
+    scale: 1.2;
+}
+
+.create{
+    font-size: 50px;
+    color: var(--primary-font-color);
+    line-height: 60px;
+}
+
+.middlethree{
+    display: flex;
+    padding-top: 150px;
+}
+
+.eth{
+    padding-left: 230px;
+}
+
+.blo{
+    padding-left: 230px;
 }
