@@ -201,12 +201,135 @@ padding-right: 100px;
 .middlethree{
     display: flex;
     padding-top: 150px;
+    animation: name 0.5s ease-in-out  iteration-count ;
+    transition: 120ms;
 }
 
 .eth{
     padding-left: 230px;
+    animation: binance 1s ease-in-out  infinite ;
+}
+
+@keyframes binance{
+    0%{
+        transition: 1s;
+        
+    }
+    100%{
+        transition: 1s;
+        
+    }
 }
 
 .blo{
     padding-left: 230px;
+}
+
+.aboutus{
+    padding-top: 200px;
+    padding-left: 600px;
+}
+
+.lorem{
+    padding-left: 480px;
+    padding-top: 40px;
+}
+
+.group18{
+    display: flex;
+    /* height: 80vh; */
+    width: 100%;
+    padding-top: 100px;
+    /* background-color: black; */
+}
+
+.group18right{
+    width: 50%;
+
+    
+}
+
+.group18img{
+    height: 90vh;
+}
+
+.group18left{
+    width: 50%;
+}
+.group19img{
+    padding-left: 40px;
+    padding-top: 80px;
+
+}
+
+.title{
+    padding-top: 200px;
+    padding-left: 500px;
+}
+
+.Category{
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+.nft3{
+    display: flex;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.col1img{
+    height: 70vh;
+    margin: 12px;
+    
+}
+/* .col1img:hover{
+    scale: 1.1;
+    
+} */
+
+.col2img{
+    height: 70vh;
+    gap: 10vh;
+    margin: 12px;
+}
+
+.col3img{
+    height: 70vh;
+    margin:  10px;
+}
+.itm4{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.placebidbtn{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.placebid{
+    width: 80%;
+    height: 8vh;
+   
+    border-radius: 20px;
+   font-size: 20px;
+   font-family: "Poppins", serif;
+   background-color: var(--primary-btn-bcg-color);
+   color: #FFFFFF;
+   transition: 500ms;
+}
+
+.placebid:hover{
+    scale: 1.1;
+}
+.second2img{
+    padding-left: 140px;
+}
+
+.johnyyello{
+    padding-left: 30px;
+}
+
+.title1{
+    padding-top: 150px;
+    padding-left: 500px;
 }
