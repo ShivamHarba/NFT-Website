@@ -333,3 +333,47 @@ padding-right: 100px;
     padding-top: 150px;
     padding-left: 500px;
 }
+
+.nft4{
+    display: flex;
+    width: 100%;
+    padding-top: 25px;
+}
+.col11img{
+    height: 70vh;
+    margin: 12px;
+    height: 100%;
+    
+}
+
+.col22{
+    padding-left: 80px;
+}
+.col12img{
+    height: 70vh;
+    gap: 10vh;
+    margin: 12px;
+    height: 100%;
+}
+
+
+.col13img{
+    height: 70vh;
+    margin:  10px;
+    height: 100%;
+}
+
+.faq1{
+    padding-top: 150px;
+    padding-left: 100px
+}
+
+.ctp{
+    padding-top: 150px;
+    padding-left: 100px
+}
+
+.ctp1{
+    padding-left: 500px;
+    padding-top: 150px;
+}
